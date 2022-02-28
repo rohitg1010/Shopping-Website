@@ -1,0 +1,114 @@
+a { text-decoration: none;
+color: black;
+font-size: larger;}
+a:hover{color:rgb(214, 144, 79)}
+body{
+    margin: 0;
+    padding-left: 0;
+
+}
+
+.searchbox{
+    
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    
+    
+    background-color: rgba(91, 173, 142, 0.219);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+.inputbox{
+    border:none;
+    outline: none;
+    background: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s all;
+    line-height: 40px;
+    width: 0px;
+}
+.btn{
+    color: rgb(90, 7, 7);
+    float: right;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+.searchbox:hover .inputbox{
+    width: 240px;
+    padding: 0 6px ;
+}
+.searchbox:hover .btn{
+    background-color:gray;
+}
+img:hover{transform: scale(1.1,1.1);
+}
+.menu{
+    display: none;
+    
+}
+.two:hover .menu{
+    display:flex;
+    position:absolute;
+    background:white;
+    margin-top: 15px;
+    margin-left: 50px;    
+}
+
+.menu{
+    font-size: large;
+    font-weight: 300;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.hii{
+    color: rgb(94, 6, 6);
+    text-align: none;
+}
+
+.menu{font-size: large;
+font-weight: lighter;
+font-family: serif;
+font-style: normal;
+font-variant: inherit;
+text-align: left;
+color: #282c3f ;
+font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+.three:hover .menu{ display:flex;
+    position:absolute;
+    background:white;
+    margin-top: 15px;
+    margin-left: 50px;
+
+}
+.shirt:hover {
+    opacity: 10
+    ; width: 50px;
+}
+.copyright {
+    background-color: #1a252f;
+  }
+  
+  .btn1{
+    color: rgb(90, 7, 7);
+    float: center;
+    text-decoration: none;
+    width: 1500px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+   
+    
